@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <style>
+      .hidden{
+        display:none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+    <form id="userInput">
+      <h2>Generate a number beteen 0 and <input required type="number" id="maxValue" min="1"></input></h2>
+      <h3>Guess the number: <input required type="number" id="userChoseValue" min="0"></input>
+        <button>Play!</button></h3>
+    </form>
+    <h3 id="result1" class="hidden"></h3>
+    <h4 id="result2" class="hidden"></h4>
+    <script src="src/index.js"></script>
+  </body>
+</html>
